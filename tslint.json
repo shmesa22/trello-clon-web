@@ -1,5 +1,5 @@
 {
-  "extends": ["tslint-react", "tslint:latest", "tslint-config-prettier"],
+  "extends": ["tslint-react", "tslint-config-prettier"],
   "rules": {
     "align": [true, "parameters", "arguments", "statements"],
     "ban": false,
@@ -92,7 +92,6 @@
       "check-separator",
       "check-type",
       "check-typecast"
-    ],
-    "member-access": false
+    ]
   }
 }
